@@ -1,0 +1,12 @@
+html,body,#root,.app-root{height:100%;margin:0;font-family:Inter,Arial,Helvetica,sans-serif}
+.topbar{height:56px;background:#0f172a;color:#fff;padding:12px 16px;font-weight:600}
+.main{height:calc(100% - 56px);display:flex}
+.leaflet-container{flex:1}
+.side-panel{width:360px;background:#fff;padding:12px;box-shadow: -3px 0 12px rgba(0,0,0,0.08);overflow:auto}
+.controls{padding:8px}
+.field{margin-bottom:8px}
+.field label{display:block;font-size:13px;margin-bottom:4px}
+.field input, .field textarea, .field select{width:100%;padding:6px;border:1px solid #ddd;border-radius:6px}
+.btn{padding:8px 10px;border-radius:6px;border:none;background:#0f172a;color:#fff;cursor:pointer}
+.small{font-size:12px;color:#666}
+.legend{margin-top:12px;padding:8px;border:1px solid #eee;border-radius:6px;background:#fafafa}

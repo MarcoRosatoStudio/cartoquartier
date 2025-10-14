@@ -1,0 +1,277 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "secteur-nord",
+        "name": "Secteur Nord - Les Aubiers",
+        "type": "sector",
+        "phase": "phase 1",
+        "status": "libre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5808,
+              44.878
+            ],
+            [
+              -0.565,
+              44.878
+            ],
+            [
+              -0.565,
+              44.866
+            ],
+            [
+              -0.5808,
+              44.866
+            ],
+            [
+              -0.5808,
+              44.878
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "soussect-01",
+        "name": "Sous-secteur A",
+        "type": "subsector",
+        "parentId": "secteur-nord",
+        "phase": "phase 1",
+        "status": "libre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.578,
+              44.877
+            ],
+            [
+              -0.57,
+              44.877
+            ],
+            [
+              -0.57,
+              44.869
+            ],
+            [
+              -0.578,
+              44.869
+            ],
+            [
+              -0.578,
+              44.877
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bat-01",
+        "name": "B\u00e2timent 1",
+        "type": "building",
+        "parentId": "soussect-01",
+        "phase": "phase 1",
+        "status": "libre"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5765,
+              44.8765
+            ],
+            [
+              -0.5745,
+              44.8765
+            ],
+            [
+              -0.5745,
+              44.8745
+            ],
+            [
+              -0.5765,
+              44.8745
+            ],
+            [
+              -0.5765,
+              44.8765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bat-01-hall",
+        "name": "Hall d'entr\u00e9e - B\u00e2t 1",
+        "type": "hall",
+        "parentId": "bat-01",
+        "level": 0,
+        "phase": "phase 1",
+        "status": "libre",
+        "description": "Hall principal, acc\u00e8s PMR"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5762,
+              44.8762
+            ],
+            [
+              -0.575,
+              44.8762
+            ],
+            [
+              -0.575,
+              44.8754
+            ],
+            [
+              -0.5762,
+              44.8754
+            ],
+            [
+              -0.5762,
+              44.8762
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bat-01-velos",
+        "name": "Local v\u00e9los - B\u00e2t 1",
+        "type": "bike_room",
+        "parentId": "bat-01",
+        "level": 0,
+        "phase": "phase 1",
+        "status": "libre",
+        "description": "10 emplacements v\u00e9los"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5758,
+              44.8759
+            ],
+            [
+              -0.5752,
+              44.8759
+            ],
+            [
+              -0.5752,
+              44.8756
+            ],
+            [
+              -0.5758,
+              44.8756
+            ],
+            [
+              -0.5758,
+              44.8759
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bat-01-tech",
+        "name": "Local technique - B\u00e2t 1",
+        "type": "technical",
+        "parentId": "bat-01",
+        "level": -1,
+        "phase": "phase 2",
+        "status": "r\u00e9serv\u00e9"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5761,
+              44.8758
+            ],
+            [
+              -0.5755,
+              44.8758
+            ],
+            [
+              -0.5755,
+              44.8755
+            ],
+            [
+              -0.5761,
+              44.8755
+            ],
+            [
+              -0.5761,
+              44.8758
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "bat-01-assoc1",
+        "name": "Association - B\u00e2t 1 - R+1",
+        "type": "association",
+        "parentId": "bat-01",
+        "level": 1,
+        "phase": "phase 3",
+        "status": "occup\u00e9",
+        "description": "Local associatif R+1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.5764,
+              44.875
+            ],
+            [
+              -0.575,
+              44.875
+            ],
+            [
+              -0.575,
+              44.8746
+            ],
+            [
+              -0.5764,
+              44.8746
+            ],
+            [
+              -0.5764,
+              44.875
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
