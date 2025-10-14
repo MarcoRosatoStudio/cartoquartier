@@ -1,7 +1,15 @@
 import React, {useEffect, useState} from 'react'
 import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-import sample from '../public/data/sectors.geojson'
+const [data, setData] = useState(null);
+
+useEffect(() => {
+  fetch('/data/sectors.geojson')
+    .then(res => res.json())
+    .then(json => setData(json))
+    .catch(() => setData({ type: 'FeatureCollection', features: [] }));
+}, []);
+
 import axios from 'axios'
 
 function FitToBounds({geojson}){
